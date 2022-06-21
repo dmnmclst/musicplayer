@@ -10,15 +10,19 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@mipmap/ic_title_screen" />
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/android_backround"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Now Playing"
         android:textColor="@color/white"
-        android:layout_marginTop="198dp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginTop="36dp"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +45,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Talk Me Down"
+        android:text="Blue Neighbourhood"
         android:textColor="@color/white"
         android:layout_marginTop="270dp"
         android:layout_marginLeft="32dp"
